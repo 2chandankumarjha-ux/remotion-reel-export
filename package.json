@@ -14,8 +14,19 @@
   "dependencies": {
     "@remotion/cli": "4.0.539",
     "@remotion/google-fonts": "4.0.539",
+    "@remotion/lottie": "4.0.539",
+    "@remotion/media-utils": "4.0.539",
+    "@remotion/shapes": "4.0.539",
+    "@remotion/transitions": "4.0.539",
+    "@remotion/animated-emoji": "4.0.539",
     "react": "19.3.1",
     "react-dom": "19.3.1",
-    "remotion": "4.0.539"
+    "remotion": "4.0.539",
+    "lucide-react": "^0.468.0",
+    "recharts": "^2.15.0",
+    "d3": "^7.9.0",
+    "clsx": "^2.1.1",
+    "lottie-web": "^5.12.2",
+    "date-fns": "^4.1.0"
   }
 }
