@@ -1,0 +1,14 @@
+# dependencies
+node_modules/
+
+# render output (mp4/png bade hote hain, repo me nahi jaayenge)
+out/
+
+# backups / OS junk
+*.bak
+.DS_Store
+Thumbs.db
+
+# Colab / editor
+.ipynb_checkpoints/
+.vscode/
