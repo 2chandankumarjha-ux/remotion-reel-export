@@ -1,19 +1,25 @@
 # 🎬 Remotion Reel Export
 
-[Remotion](https://www.remotion.dev) se **Hindi data-reels (1080×1920, 30fps)** banane ka template. Google Colab me render hota hai, laptop par kuch install karne ki zarurat nahi.
+An automated video rendering pipeline built with [Remotion](https://www.remotion.dev/) and React for generating high-quality, short-form vertical reels (9:16). This project is designed to streamline the production of educational, cultural, and storytelling content using code.
 
-Abhi ka reel: **Top 10 sabse zyada aabaadi wale desh** (`PopulationRaceReel`, 60 second).
+## 🚀 Features
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/2chandankumarjha-ux/remotion-reel-export/blob/main/Remotion_Reel_Export.ipynb)
+- **Vertical First (9:16):** Pre-configured compositions specifically optimized for Instagram Reels, YouTube Shorts, and TikTok.
+- **Automated Rendering Pipeline:** Easily generate videos in bulk using Node.js scripts and dynamic data inputs.
+- **Hardware Acceleration Ready:** Optimized for fast rendering on local GPU workstations (e.g., RTX series) and adaptable for cloud environments like Google Colab.
+- **Dynamic Content Injection:** Seamlessly pass dynamic text, images, and audio tracks to render multiple unique reels from a single template.
+- **Developer-Friendly:** Written in TypeScript with React, offering a robust and type-safe development experience.
 
-## Repo me kya hai
+## 🛠️ Tech Stack
 
-```text
-.
-├── Remotion_Reel_Export.ipynb   # Colab notebook: setup -> clone -> install -> render
-├── package.json                 # exact (pinned) versions
-├── package-lock.json            # reproducible install (isey delete mat karna)
-├── .gitignore
-└── src/
-    ├── index.jsx                # registerRoot(Root)
-    └── Root.jsx                 # reel ka poora design + data + captions
+- **Framework:** [Remotion](https://www.remotion.dev/)
+- **Library:** React.js, TypeScript
+- **Styling:** CSS / TailwindCSS (Optional)
+- **Environment:** Node.js
+
+## 💻 Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/2chandankumarjha-ux/remotion-reel-export.git](https://github.com/2chandankumarjha-ux/remotion-reel-export.git)
+   cd remotion-reel-export
