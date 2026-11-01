@@ -1,5 +1,13 @@
 # 🎬 Remotion Reel Export
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/2chandankumarjha-ux/remotion-reel-export/blob/main/Remotion_Reel_Export.ipynb)
+
+An automated video rendering pipeline built with Remotion and React for generating high-quality, short-form vertical reels (9:16). This project is designed to streamline the production of educational, cultural, and storytelling content using code.
+
+## 🚀 Features
+... (baaki content waisa hi rahega)
+# 🎬 Remotion Reel Export
+
 An automated video rendering pipeline built with [Remotion](https://www.remotion.dev/) and React for generating high-quality, short-form vertical reels (9:16). This project is designed to streamline the production of educational, cultural, and storytelling content using code.
 
 ## 🚀 Features
